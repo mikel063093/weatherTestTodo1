@@ -19,6 +19,7 @@ class Api {
         "Content-Type": "application/json",
         "X-Auth-Token": ""
     ]
+    
     init(useCellular : Bool = true) {
         Alamofire.SessionManager.default.session.configuration.timeoutIntervalForRequest = 30
         Alamofire.SessionManager.default.session.configuration.timeoutIntervalForResource = 30
