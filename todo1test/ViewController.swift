@@ -78,13 +78,18 @@ extension ViewController: WeatherContract{
     func updateWeather(weather currentWeather: Weather) {
         DispatchQueue.main.async(execute: {
             guard let weatherSummary = currentWeather.summary, let weatherTemperature = currentWeather.temperature, let weatherHumidity = currentWeather.humidity, let weatherIcon = currentWeather.icon, let weatherProbability = currentWeather.precipProbability else{return}
-            self.temperatureLabel.text = String(format:"%.0f", weatherTemperature) + "°F"
+            self.temperatureLabel.text = String(format:"%.0f", self.fahrenheitToCelsius(tempInF: weatherTemperature)) + "°C"
             self.summaryLabel.text = weatherSummary
             self.humidityLabel.text = String(format:"%.1f", weatherHumidity) + "%"
             self.weatherLabel.text = weatherIcon.uppercased()
             self.weatherPercentageLabel.text = String(format:"%.1f", weatherProbability) + "%"
         })
         
+    }
+    
+    func fahrenheitToCelsius(tempInF:Double) ->Double {
+        let celsius: Double = (tempInF - 32) * (5/9)
+        return celsius
     }
     
     func onErr(msg: String) {
