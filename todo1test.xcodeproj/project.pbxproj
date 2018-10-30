@@ -25,6 +25,7 @@
 		959B150D2188F8AC0040B02D /* SwiftLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B150C2188F8AC0040B02D /* SwiftLoader.swift */; };
 		959B150F2188FE9D0040B02D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B150E2188FE9D0040B02D /* Font.swift */; };
 		959B1511218910EA0040B02D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B1510218910EA0040B02D /* Result.swift */; };
+		959B151321891F570040B02D /* ColorUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B151221891F570040B02D /* ColorUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		959B150C2188F8AC0040B02D /* SwiftLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoader.swift; sourceTree = "<group>"; };
 		959B150E2188FE9D0040B02D /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		959B1510218910EA0040B02D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		959B151221891F570040B02D /* ColorUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorUtil.swift; sourceTree = "<group>"; };
 		DA801A8CB736BC921F31CC32 /* Pods-todo1testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo1testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-todo1testUITests/Pods-todo1testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E99F177A3C626570484F135A /* Pods_todo1test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todo1test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -174,6 +176,7 @@
 			children = (
 				959B14FD2188E3910040B02D /* Log.swift */,
 				959B150E2188FE9D0040B02D /* Font.swift */,
+				959B151221891F570040B02D /* ColorUtil.swift */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -383,6 +386,7 @@
 				959B150F2188FE9D0040B02D /* Font.swift in Sources */,
 				959B15072188ED140040B02D /* WeatherPresenter.swift in Sources */,
 				959B14D92188CFD70040B02D /* ViewController.swift in Sources */,
+				959B151321891F570040B02D /* ColorUtil.swift in Sources */,
 				959B15042188E95E0040B02D /* BaseApiContract.swift in Sources */,
 				959B14FE2188E3910040B02D /* Log.swift in Sources */,
 				959B1511218910EA0040B02D /* Result.swift in Sources */,

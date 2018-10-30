@@ -19,6 +19,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ilh-KI-pN4" userLabel="ImageBackground">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" red="0.3065137219019014" green="0.82227171185856363" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iFL-bt-vWT">
                                 <rect key="frame" x="187.33333333333334" y="50" width="39.333333333333343" height="35"/>
@@ -98,7 +99,6 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.3589100838" green="0.54160863159999995" blue="0.84317290779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" red="0.3589100838" green="0.54160863159999995" blue="0.84317290779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="db7-KK-SQE" firstAttribute="centerX" secondItem="R6r-tv-CxW" secondAttribute="centerX" id="4KY-Ye-qqf"/>
