@@ -7,6 +7,7 @@ target 'todo1test' do
   pod 'ObjectMapper'
   pod 'RxSwift',    '~> 4.0'
   pod 'RxCocoa',    '~> 4.0'
+  pod 'SwiftEntryKit', '0.8.4'
 
   # Pods for todo1test
   target 'todo1testUITests' do

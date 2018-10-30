@@ -12,7 +12,7 @@ import RxSwift
 class WeatherService: BaseApiContract {
     
     internal func getBaseUrl() -> String {
-        return "https://api.darksky.net/forecast/"
+        return "https://api.darksky.net/forecast"
     }
     
     internal func getApiKey() -> String {
@@ -25,9 +25,9 @@ class WeatherService: BaseApiContract {
         self.service = service
     }
     
-    func getWeater(lat: Double, lng: Double) -> Observable<Weather> {
-        let url = "\(getBaseUrl())/\(getApiKey())/\(lat)/,\(lng)"
-        return service.get(url: url, typeReference: [Weather]()).asObservable()
+    func getWeater(lat: Double, lng: Double) -> Observable<Result<Weather>> {
+        let url = "\(getBaseUrl())/\(getApiKey())/\(lat),\(lng)"
+        return service.get(url: url, typeReference: [Result<Weather>]()).asObservable()
     }
     
 }

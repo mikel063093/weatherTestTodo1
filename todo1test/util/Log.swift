@@ -11,12 +11,12 @@ import Foundation
 public class Log{
     
     public static func Log(msg:String){
-        print("\(msg)")
+        debugPrint("\(msg)")
     }
     
     public static func Log(tag: String, msg: String){
         let out = "\(tag)  \(msg)"
-        print("\(out)")
+        debugPrint("\(out)")
     }
     
     

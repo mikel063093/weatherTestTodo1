@@ -23,6 +23,8 @@
 		959B15072188ED140040B02D /* WeatherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B15062188ED140040B02D /* WeatherPresenter.swift */; };
 		959B150A2188EE0C0040B02D /* WeatherContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B15092188EE0C0040B02D /* WeatherContract.swift */; };
 		959B150D2188F8AC0040B02D /* SwiftLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B150C2188F8AC0040B02D /* SwiftLoader.swift */; };
+		959B150F2188FE9D0040B02D /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B150E2188FE9D0040B02D /* Font.swift */; };
+		959B1511218910EA0040B02D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B1510218910EA0040B02D /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		959B15062188ED140040B02D /* WeatherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPresenter.swift; sourceTree = "<group>"; };
 		959B15092188EE0C0040B02D /* WeatherContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherContract.swift; sourceTree = "<group>"; };
 		959B150C2188F8AC0040B02D /* SwiftLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLoader.swift; sourceTree = "<group>"; };
+		959B150E2188FE9D0040B02D /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		959B1510218910EA0040B02D /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		DA801A8CB736BC921F31CC32 /* Pods-todo1testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-todo1testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-todo1testUITests/Pods-todo1testUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E99F177A3C626570484F135A /* Pods_todo1test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_todo1test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -142,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				959B14FF2188E4DF0040B02D /* Weather.swift */,
+				959B1510218910EA0040B02D /* Result.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				959B14FD2188E3910040B02D /* Log.swift */,
+				959B150E2188FE9D0040B02D /* Font.swift */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -346,16 +352,20 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/QuickLayout/QuickLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftEntryKit/SwiftEntryKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuickLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftEntryKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -370,10 +380,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				959B14FB2188E2AA0040B02D /* Api.swift in Sources */,
+				959B150F2188FE9D0040B02D /* Font.swift in Sources */,
 				959B15072188ED140040B02D /* WeatherPresenter.swift in Sources */,
 				959B14D92188CFD70040B02D /* ViewController.swift in Sources */,
 				959B15042188E95E0040B02D /* BaseApiContract.swift in Sources */,
 				959B14FE2188E3910040B02D /* Log.swift in Sources */,
+				959B1511218910EA0040B02D /* Result.swift in Sources */,
 				959B14D72188CFD70040B02D /* AppDelegate.swift in Sources */,
 				959B15022188E6BF0040B02D /* WeatherService.swift in Sources */,
 				959B15002188E4DF0040B02D /* Weather.swift in Sources */,

@@ -109,11 +109,13 @@
                         <viewLayoutGuide key="safeArea" id="w2U-2Y-aen"/>
                     </view>
                     <connections>
+                        <outlet property="cityLabel" destination="ZPh-56-hst" id="UU2-qi-CI9"/>
+                        <outlet property="humidityLabel" destination="ZQl-9S-yeP" id="lRb-jD-E2N"/>
                         <outlet property="imgBackground" destination="ilh-KI-pN4" id="Oq6-0Z-NY9"/>
-                        <outlet property="lbHumidity" destination="ZQl-9S-yeP" id="Dmp-FF-Nbx"/>
-                        <outlet property="lblRain" destination="8SJ-O5-JMe" id="M9N-of-kq7"/>
-                        <outlet property="lblSummary" destination="db7-KK-SQE" id="K9o-Ta-To2"/>
-                        <outlet property="lblWeather" destination="t9u-Ab-V2U" id="KDM-G9-xiF"/>
+                        <outlet property="summaryLabel" destination="db7-KK-SQE" id="GC0-kG-RK7"/>
+                        <outlet property="temperatureLabel" destination="t9u-Ab-V2U" id="tKd-LN-c1q"/>
+                        <outlet property="weatherLabel" destination="VWZ-Bt-0kt" id="ZCJ-TY-weW"/>
+                        <outlet property="weatherPercentageLabel" destination="8SJ-O5-JMe" id="Kzi-Tm-ow0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cbN-xf-bL3" sceneMemberID="firstResponder"/>

@@ -28,7 +28,7 @@ class WeatherPresenter {
             .subscribeOn(MainScheduler())
             .subscribe(onNext: { it in
                 self.delegate.hideLoading()
-                self.delegate.updateWeather(weather: it)
+                self.delegate.updateWeather(weather: it.currently!)
             }, onError: { err in
                 self.delegate.hideLoading()
                 self.delegate.onErr(msg: "An error has occurred, try again...")

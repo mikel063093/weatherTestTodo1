@@ -4,9 +4,12 @@ PODS:
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 3.3)
   - ObjectMapper (3.3.0)
+  - QuickLayout (2.1.1)
   - RxCocoa (4.3.1):
     - RxSwift (~> 4.0)
   - RxSwift (4.3.1)
+  - SwiftEntryKit (0.8.4):
+    - QuickLayout (= 2.1.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -14,22 +17,27 @@ DEPENDENCIES:
   - ObjectMapper
   - RxCocoa (~> 4.0)
   - RxSwift (~> 4.0)
+  - SwiftEntryKit (= 0.8.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - AlamofireObjectMapper
     - ObjectMapper
+    - QuickLayout
     - RxCocoa
     - RxSwift
+    - SwiftEntryKit
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   AlamofireObjectMapper: 3395e698901d8b0e6f48b7d0c43bd47875325102
   ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  QuickLayout: 9af2b7fd89a6552828f51a5aba28d1bcdb8b340c
   RxCocoa: 78763c7b07d02455598d9fc3c1ad091a28b73635
   RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  SwiftEntryKit: f0dd54bb0fb9f234738cd15a32365265cb975be8
 
-PODFILE CHECKSUM: 5be3fb75f6e894401013fec948132e55b06c42fb
+PODFILE CHECKSUM: 7297149787032cf9626652e4fa7ce724507129db
 
 COCOAPODS: 1.5.3
