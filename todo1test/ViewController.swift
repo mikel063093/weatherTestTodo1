@@ -27,16 +27,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         initPresenter()
         initLocation()
+        initUi()
+    }
+    
+    private func initUi(){
         let color1 = ColorUtil.hexStringToUIColor(hex: "#2193b0")
         let color2 = ColorUtil.hexStringToUIColor(hex: "#6dd5ed")
-        
         let gradientLayer = CAGradientLayer()
-        
         gradientLayer.frame = self.view.bounds
-        
         gradientLayer.colors = [color1.cgColor, color2.cgColor]
         let image = UIImage.gradientImageWithBounds(bounds: self.imgBackground.bounds, colors: [color1.cgColor, color2.cgColor])
-
         self.imgBackground.image = image
     }
     
