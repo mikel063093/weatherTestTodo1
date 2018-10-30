@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var lbHumidity: UILabel!
+    @IBOutlet weak var lblWeather: UILabel!
+    @IBOutlet weak var lblRain: UILabel!
+    @IBOutlet weak var lblSummary: UILabel!
+    @IBOutlet weak var imgBackground: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        lbHumidity.text = "alv perr"
     }
 
-
+    @IBAction func refresh(_ sender: Any) {
+    }
+    
 }
 
