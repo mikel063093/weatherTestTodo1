@@ -16,13 +16,13 @@ class todo1testUITests: XCTestCase {
         continueAfterFailure = false
         self.app = XCUIApplication()
         app?.launch()
-
+        
     }
-
+    
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
+    
     func testRefresh() {
         let refreshButton = self.app?.buttons["ic refresh"]
         XCTAssertTrue((refreshButton?.exists)!)
@@ -42,5 +42,5 @@ class todo1testUITests: XCTestCase {
         XCTAssertTrue((refreshButton?.exists)!)
         refreshButton?.tap()
     }
-
+    
 }

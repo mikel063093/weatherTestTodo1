@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var weatherLabel: UILabel!
     @IBOutlet weak var weatherPercentageLabel: UILabel!
     @IBOutlet weak var summaryLabel: UILabel!
-    
     @IBOutlet weak var imgBackground: UIImageView!
+    
     let locationManager = CLLocationManager()
     private var presenter: WeatherPresenter? = nil
     
@@ -161,7 +161,7 @@ extension ViewController: CLLocationManagerDelegate{
         
         if (shouldIAllow == true) {
             Log.Log(msg:"Location to Allowed")
-           locationManager.requestLocation()
+            locationManager.requestLocation()
         } else {
             onErr(msg: "Denied access: \(locationStatus)")
         }

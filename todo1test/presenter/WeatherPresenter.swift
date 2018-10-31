@@ -15,7 +15,7 @@ class WeatherPresenter {
     private let disposeBag = DisposeBag()
     private let api: WeatherService
     private let delegate: WeatherContract
-
+    
     init(api: WeatherService, delegate: WeatherContract) {
         self.api = api
         self.delegate = delegate
